@@ -1,0 +1,28 @@
+.headerLink{
+    color: black;
+    text-decoration: none;
+    background-color: #E67E22;
+    border: 1px #E67E22 solid;
+    padding: 0.40rem;
+    border-radius: 0.5rem;
+}
+
+.nav{
+    
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav > .container{
+    padding: 1.5rem;
+    background-color: #628141;
+    width: 75%;
+    height: 100%;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    display: flex;
+    gap: 1rem;
+}
