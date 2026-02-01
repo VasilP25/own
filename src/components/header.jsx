@@ -17,6 +17,9 @@ export default function Header() {
           <Link className="headerLink" to={"/ticTacToe"}>
             TicTacToe
           </Link>
+          <Link className="headerLink" to={"/progressBar"}>
+            Progress bar
+          </Link>
         </div>
       </header>
     </>

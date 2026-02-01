@@ -6,6 +6,7 @@ import Home from "./components/home";
 import Footer from "./components/footer";
 import TodoList from "./components/TodoList";
 import TicTacToe from "./components/TicTacToe";
+import ProgressBar from "./components/progressBar";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/counter" element={<Counter />} />
-          <Route path="/todoList" element={<TodoList />} />
+          <Route path="/todoList" element={<TodoList name="Ivan" />} />
           <Route path="/ticTacToe" element={<TicTacToe />} />
+          <Route path="/progressBar" element={<ProgressBar />} />
         </Routes>
       </div>
       <Footer />
